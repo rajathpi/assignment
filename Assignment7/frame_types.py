@@ -139,7 +139,7 @@ class Food(Type):
 
     def parse_keyword(self, kw: str):
         food_preference = kw
-        available_preferences = ["no", "vegetarian", "chicken", "beef", "vegan", "fish"]
+        available_preferences = ["meatballs", "vegetarian", "chicken", "beef", "vegan", "fish", "salad"]
         if food_preference in available_preferences:
             self.fill_content(food_preference)
         else:
